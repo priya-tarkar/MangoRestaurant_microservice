@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{7304C9EA-C79F-4FE5-88B1-B1A631B51309}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{71EFE44C-92B7-4AFA-AAFC-D8330BFE6EBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1930B395-520A-4AE7-A94F-E2DE607CCBD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{1814B9C1-FA77-4D81-9BD1-B3BB5BB22FCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Services.Identity", "Microsoft.Identity.Services\Microsoft.Services.Identity.csproj", "{83F4DE43-976C-4C95-89EB-C38C18851463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{0699F8FF-775E-4757-84E3-EE73ECDAAE53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meeting.Gateway.Solution", "Meeting.Gateway.Solution\Meeting.Gateway.Solution.csproj", "{48776D4D-CD55-465E-B15C-7CEDE4154E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.Shopping.Cart", "Mango.Services.Shopping.Cart\Mango.Services.Shopping.Cart.csproj", "{2F31918E-BB83-4417-A2FF-54A7CDB1C141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71EFE44C-92B7-4AFA-AAFC-D8330BFE6EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EFE44C-92B7-4AFA-AAFC-D8330BFE6EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EFE44C-92B7-4AFA-AAFC-D8330BFE6EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EFE44C-92B7-4AFA-AAFC-D8330BFE6EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1814B9C1-FA77-4D81-9BD1-B3BB5BB22FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1814B9C1-FA77-4D81-9BD1-B3BB5BB22FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1814B9C1-FA77-4D81-9BD1-B3BB5BB22FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1814B9C1-FA77-4D81-9BD1-B3BB5BB22FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F4DE43-976C-4C95-89EB-C38C18851463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F4DE43-976C-4C95-89EB-C38C18851463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F4DE43-976C-4C95-89EB-C38C18851463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F4DE43-976C-4C95-89EB-C38C18851463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48776D4D-CD55-465E-B15C-7CEDE4154E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48776D4D-CD55-465E-B15C-7CEDE4154E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48776D4D-CD55-465E-B15C-7CEDE4154E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48776D4D-CD55-465E-B15C-7CEDE4154E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F31918E-BB83-4417-A2FF-54A7CDB1C141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F31918E-BB83-4417-A2FF-54A7CDB1C141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F31918E-BB83-4417-A2FF-54A7CDB1C141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F31918E-BB83-4417-A2FF-54A7CDB1C141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71EFE44C-92B7-4AFA-AAFC-D8330BFE6EBC} = {7304C9EA-C79F-4FE5-88B1-B1A631B51309}
+		{1814B9C1-FA77-4D81-9BD1-B3BB5BB22FCD} = {1930B395-520A-4AE7-A94F-E2DE607CCBD1}
+		{83F4DE43-976C-4C95-89EB-C38C18851463} = {1930B395-520A-4AE7-A94F-E2DE607CCBD1}
+		{48776D4D-CD55-465E-B15C-7CEDE4154E9E} = {0699F8FF-775E-4757-84E3-EE73ECDAAE53}
+		{2F31918E-BB83-4417-A2FF-54A7CDB1C141} = {1930B395-520A-4AE7-A94F-E2DE607CCBD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73529766-BD6F-4301-B160-34F48D604EB3}
+	EndGlobalSection
+EndGlobal
